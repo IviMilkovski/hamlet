@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Hepta+Slab&display=swap');@import url('https://fonts.googleapis.com/css?family=Slabo+27px&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    color:white;
+  }
+  
+body {
+    font-family: 'Merriweather', serif;
+    background: black;
+    color: rgba(255, 255, 255, 0.65);
+}
+.row {
+  margin: 0px;
+}
+.container-fluid {
+  padding: 0px;
+}
+.bg{
+  background-color: black;
+}
+h3{
+    font-family: 'Hepta Slab', serif;
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.61);
+}
+h1{
+    color: #fff;
+    font-size: 40px;
+    &:hover{
+        color: rgb(100, 14, 14);
+    }
+}
+  ul {
+    list-style: none;
+  }
+  a, a:hover {
+    text-decoration: none;
+  }
+.head {
+    width: 100%;
+    color: #fff;
+    .indicators {
+      display: none;
+    }
+    #nav-fluid {
+        width: 100%;
+      }
+      .logo {
+        padding-top: 10px;
+      }
+      a {
+        font-size: 19px;
+        &:hover{
+            font-size: 19px;
+                color: rgb(100, 15, 15);
+                transition: color 0.4s;
+                text-shadow: 1.3px 1.3px 2px rgb(104, 46, 46);
+        }
+      }
+      #headerText {
+        text-align: center;
+        margin-top: 6%;
+      }
+      h5{
+        font-size: 25px;
+        color: rgba(255, 255, 255, 0.493);
+    }
+  }
+h2{
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.493);
+}
+p{
+    color: rgba(255, 255, 255, 0.493);
+    font-size: 16px;
+    &::first-letter{
+      font-size: 30px;
+    }
+}
+  .wave{
+    text-align: center;
+    background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(43, 5, 5));
+    height: 50px;
+    position: relative;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  &:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-repeat: repeat-x;
+    height: 10px;
+    background-size: 20px 20px;
+    }
+  &:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-repeat: repeat-x;
+    height: 15px;
+    background-size: 40px 20px;
+    }
+}
+.futer{
+    width: 100%;
+    background-color: rgb(43, 5, 5);
+    padding-top: 70px;
+    padding-bottom: 30px;
+    h4{
+        color: rgb(190, 185, 185);
+        margin-bottom: 30px;
+    }
+    i{
+        color: rgb(190, 185, 185);
+    }
+}
+.links{
+    li{
+        background: rgb(26, 6, 6);
+    }
+}
+.quick{
+    li{
+        background: rgb(43, 5, 5);
+        text-align: center;
+    }
+}
+form{
+    padding-top: 60px;
+    text-align: center;
+}
+
+h6{
+  color: antiquewhite;
+}
+.quote{
+  background: rgb(26, 0, 0);
+  h3{
+    font-family: 'Slabo 27px', serif;
+    color: rgb(207, 207, 207);
+  }
+}
+.kartica{
+  margin: 50px;
+}
+h4{
+  color: rgba(255, 255, 255, 0.801);
+  font-size: 40px;
+  padding-top: 20px;
+}
+.co{
+  width: 100% !important;
+}
+.me{
+  border-radius: 80px 80px !important;
+}
+.me2 img{
+  width: 100%;
+}
+h5{
+  color: rgba(255, 255, 255, 0.801);
+  font-size: 30px;
+  padding-top: 20px;
+}
+@media (max-width: 995px){
+  p{
+    font-size: 15px;
+    &::first-letter{
+      font-size: 25px;
+    }
+  }
+  h3{
+    font-size: 35px;
+  }
+  h2{
+    font-size: 29px;
+}
+
+.wave{
+  display: none;
+}
+}
+@media (max-width: 780px){
+  p{
+    font-size: 14px;
+    &::first-letter{
+      font-size: 20px;
+    }
+  }
+  h3{
+    font-size: 30px;
+  }
+}
+h2{
+  font-size: 28px;
+}
+@media (max-width: 480px){
+  p{
+    &::first-letter{
+      font-size: 20px;
+    }
+  }
+  h3{
+    font-size: 30px;
+  }
+  h2{
+    font-size: 27px;
+}
+.wave{
+  display: block;
+}
+}
+@media (max-width: 370px){
+  p{
+    font-size: 13px;
+  }
+  h3{
+    font-size: 28px;
+  }
+}

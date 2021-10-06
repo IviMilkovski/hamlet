@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+  <loc>https://hamlet.netlify.com/</loc>
+  <lastmod>2019-09-10</lastmod>
+   <changefreq>weekly</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://hamlet.netlify.com/index.html</loc>
+  <lastmod>2019-09-10</lastmod>
+   <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hamlet.netlify.com/plot.html</loc>
+  <lastmod>2019-09-10</lastmod>
+   <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hamlet.netlify.com/author.html</loc>
+  <lastmod>2019-09-10</lastmod>
+   <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hamlet.netlify.com/characters.html</loc>
+  <lastmod>2019-09-10</lastmod>
+   <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hamlet.netlify.com/adaptations.html</loc>
+  <lastmod>2019-09-10</lastmod>
+   <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hamlet.netlify.com/about.html</loc>
+  <lastmod>2019-09-10</lastmod>
+   <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
